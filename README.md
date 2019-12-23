@@ -14,6 +14,5 @@ Works with my favorite Linux distributions:
 instructions:
 1. Save this file as **/usr/bin/zoek**
 2. Set execute permissions:
-'''
 chmod +x /usr/bin/zoek
-'''
+```
