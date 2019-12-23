@@ -1,7 +1,7 @@
 # zoek
-searchtool for packages: look for both native, flatpak and snap packages at the same time
+Searchtool for packages: look for both native, flatpak and snap packages at the same time
     
- * Search for native, flatpak and snap packages with one command
+*Search for native, flatpak and snap packages with one command
  Run this script with the search string as argurment *
 
 Works with my favorite Linux distributions: 
