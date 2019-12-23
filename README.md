@@ -1,10 +1,10 @@
 # zoek
 searchtool for packages: look for both native, flatpak and snap packages at the same time
     
- Search for native, flatpak and snap packages with one command
- Run this script with the search string as argurment
+ * Search for native, flatpak and snap packages with one command
+ Run this script with the search string as argurment *
 
-Currently only works with my personal favorite linux distributions: 
+Works with my favorite Linux distributions: 
 * Solus
 * Debian and Debian derivates
 * Arch
@@ -15,4 +15,3 @@ Currently only works with my personal favorite linux distributions:
 instructions:
 1. Save this file as /usr/bin/zoek
 2. Set execute permissions: chmod +x /usr/bin/zoek
-  
