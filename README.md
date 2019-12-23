@@ -10,15 +10,14 @@ searchtool for packages, look for both native, flatpak and snap packages at the 
  example:
  			zoek packagename    
 
-screenshot:
-https://i.imgur.com/s5gFSzP.png
+![screenshot](https://i.imgur.com/s5gFSzP.png)
     
 instructions:
 Save this file as /usr/bin/zoek
 Set execute permissions: chmod +x /usr/bin/zoek
   
 Currently only works with my personal favorite linux distributions: 
-- Solus
-- Debian and Debian derivates
-- Arch
-- Redhat, Fedora and CentOS support
+* Solus
+* Debian and Debian derivates
+* Arch
+* Redhat, Fedora and CentOS support
