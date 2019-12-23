@@ -17,5 +17,8 @@ instructions:
 Save this file as /usr/bin/zoek
 Set execute permissions: chmod +x /usr/bin/zoek
   
-Currently only works with my personal favorite linux distributions: Solus, Debian and Debian derivates.
-Testing Redhat, Fedora and CentOS support
+Currently only works with my personal favorite linux distributions: 
+- Solus
+- Debian and Debian derivates
+- Arch
+- Redhat, Fedora and CentOS support
