@@ -4,7 +4,7 @@ Searchtool for packages: look for both native, flatpak and snap packages at the 
 *Search for native, flatpak and snap packages with one command. Run this script with the search string as argurment*
 
 Works with my favorite Linux distributions: 
-* Solus
+* [Solus](https://getsol.us)
 * Debian and Debian derivates
 * Arch
 * Redhat, Fedora and CentOS support
