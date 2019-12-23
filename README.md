@@ -1,5 +1,5 @@
 # zoek
-searchtool for packages, look for both native, flatpak and snap packages at the same time
+searchtool for packages: look for both native, flatpak and snap packages at the same time
 
  zoek
  Dutch, weak verb, present tense, to search, look for, to seek
@@ -7,8 +7,6 @@ searchtool for packages, look for both native, flatpak and snap packages at the 
  Search for native, flatpak and snap packages with one command
  Run this script with the search string as argurment
     
- example:
- 			zoek packagename    
 
 ![screenshot](https://i.imgur.com/s5gFSzP.png)
     
