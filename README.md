@@ -5,9 +5,9 @@ Searchtool for packages: look for both native, flatpak and snap packages at the 
 
 Works with my favorite Linux distributions: 
 * [Solus](https://getsol.us)
-* Debian and Debian derivates
+* Debian, Ubuntu & other Debian derivates
 * Arch
-* Redhat, Fedora and CentOS support
+* CentOS, Redhat, Fedora
     
 ![screenshot](https://i.imgur.com/9Xo6C82.png)
     
