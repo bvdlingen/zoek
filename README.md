@@ -12,5 +12,5 @@ Works with my favorite Linux distributions:
 ![screenshot](https://i.imgur.com/s5gFSzP.png)
     
 instructions:
-1. Save this file as /usr/bin/zoek
-2. Set execute permissions: chmod +x /usr/bin/zoek
+1. Save this file as **/usr/bin/zoek**
+2. Set execute permissions: '''chmod +x /usr/bin/zoek'''
