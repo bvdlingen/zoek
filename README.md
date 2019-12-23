@@ -8,7 +8,7 @@ searchtool for packages, look for both native, flatpak and snap packages at the 
  Run this script with the search string as argurment
     
  example:
-    zoek packagename    
+ 			zoek packagename    
 
 screenshot:
 https://i.imgur.com/s5gFSzP.png
