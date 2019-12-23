@@ -9,7 +9,7 @@ Works with my favorite Linux distributions:
 * Arch
 * Redhat, Fedora and CentOS support
     
-![screenshot](https://i.imgur.com/s5gFSzP.png)
+![screenshot](https://i.imgur.com/9Xo6C82.png)
     
 instructions:
 1. Save the [script](https://github.com/bvdlingen/zoek/blob/master/zoek) as **/usr/bin/zoek**
