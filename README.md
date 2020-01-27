@@ -9,11 +9,13 @@ Works with my favorite Linux distributions:
 * Arch
 * CentOS, Redhat, Fedora
     
-    <!--- just 
 ![screenshot](https://i.imgur.com/9Xo6C82.png) 
----> 
+
+    <!--- just 
 
 [![asciicast](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i.svg)](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i?autoplay=1)
+
+---> 
 
 [![demo](https://asciinema.org/a/113463.svg)](https://asciinema.org/a/113463?autoplay=1)
     
