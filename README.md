@@ -9,7 +9,10 @@ Works with my favorite Linux distributions:
 * Arch
 * CentOS, Redhat, Fedora
     
-![screenshot](https://i.imgur.com/9Xo6C82.png)
+    <!--- just 
+![screenshot](https://i.imgur.com/9Xo6C82.png) 
+---> 
+[![asciicast](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i.svg)](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i)
     
 instructions:
 1. Save the [script](https://github.com/bvdlingen/zoek/blob/master/zoek) as **/usr/bin/zoek**
