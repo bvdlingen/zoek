@@ -12,7 +12,8 @@ Works with my favorite Linux distributions:
     <!--- just 
 ![screenshot](https://i.imgur.com/9Xo6C82.png) 
 ---> 
-[![asciicast](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i.svg)](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i)
+[![asciicast](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i.svg)](https://asciinema.org/a/7G2axyCL0PX32ENQKAbOEjt6i?autoplay=1)
+[![demo](https://asciinema.org/a/113463.svg)](https://asciinema.org/a/113463?autoplay=1)
     
 instructions:
 1. Save the [script](https://github.com/bvdlingen/zoek/blob/master/zoek) as **/usr/bin/zoek**
