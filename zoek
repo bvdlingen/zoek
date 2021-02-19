@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-<< '###COMMENT'
+<< ////
     zoek?
     Dutch, weak verb, present tense
     to search, look for, to seek
@@ -17,7 +17,7 @@
     
     Currently only works with my personal favorite linux distributions: Solus, Arch, Debian and derivated distro's.
     Testing Redhat, Fedora and CentOS support
-###COMMENT
+////
 
 STRING1=$1
 source /etc/os-release
