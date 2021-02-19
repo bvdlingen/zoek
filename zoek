@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-<< 'multilinecomment'
+<< '###multilinecomment'
     zoek?
     Dutch, weak verb, present tense
     to search, look for, to seek
@@ -18,7 +17,7 @@
     
     Currently only works with my personal favorite linux distributions: Solus, Debian and Debian derivates.
     Testing Redhat, Fedora and CentOS support
-multilinecomment
+###multilinecomment
 
 STRING1=$1
 source /etc/os-release
