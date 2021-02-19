@@ -1,5 +1,5 @@
 # zoek
-Searchtool for packages: look for both native, flatpak and snap packages on RedHat, Debian and Solus
+Searchtool for packages: look for both native, flatpak and snap packages. Works on Arch, Solus, Debian and derivated distro's. 
     
 *Search for native, flatpak and snap packages with one command. Run this script with the search string as argurment*
 
@@ -7,7 +7,7 @@ Works with my favorite Linux distributions:
 * [Solus](https://getsol.us)
 * Debian, Ubuntu & other Debian derivates
 * Arch
-* CentOS, Redhat, Fedora
+Testing CentOS, Redhat and Fedora
     
 
 
