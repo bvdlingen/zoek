@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-<< '###multilinecomment'
+<< '###COMMENT'
     zoek?
     Dutch, weak verb, present tense
     to search, look for, to seek
@@ -15,9 +15,9 @@
     Save this file as /usr/bin/zoek
     Set execute permissions: chmod +x /usr/bin/zoek
     
-    Currently only works with my personal favorite linux distributions: Solus, Debian and Debian derivates.
+    Currently only works with my personal favorite linux distributions: Solus, Arch, Debian and derivated distro's.
     Testing Redhat, Fedora and CentOS support
-###multilinecomment
+###COMMENT
 
 STRING1=$1
 source /etc/os-release
