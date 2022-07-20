@@ -24,25 +24,25 @@ source /etc/os-release
 declare -A osInfo;
 osInfo[/usr/bin/eopkg]=eopkg
 osInfo[/usr/bin/apt-cache]=apt-cache
-osInfo[/usr/bin/yum]=redhat #testing: tested on centos
+osInfo[/usr/bin/dnf]=fedora
 osInfo[/usr/bin/pacman]=arch
 echo 
 for f in ${!osInfo[@]}
 do
     if [[ -f $f ]];then
-        echo Package manager: ${osInfo[$f]} on $PRETTY_NAME | lolcat
+        echo Package manager: ${osInfo[$f]} on $PRETTY_NAME
 
-echo Searching for native packages... | lolcat
+echo Searching for native packages...
 $f search $STRING1
 #dirtyhackforarch, arch users are used to it anyway
-test -f /usr/bin/yum && $f -Ss $STRING1
+test -f /usr/bin/dnf && $f -Ss $STRING1
 echo 
 
-echo looking for snap packages... | lolcat
+echo looking for snap packages...
 snap search $STRING1
 echo 
 
-echo flatpak maybe? | lolcat
+echo flatpak maybe?
 flatpak search $STRING1
 
     fi
