@@ -24,7 +24,4 @@ chmod +x /usr/bin/zoek
 Dependencies:
 * [flatpak](https://flatpak.org/setup/)
 * [snap (snapd)](https://snapcraft.io/docs/installing-snapd)
-* [lolcat](https://github.com/busyloop/lolcat)
-```
-sudo gem install lolcat
-```
+

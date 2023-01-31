@@ -1,48 +1,46 @@
 #!/usr/bin/env bash
-<< ////
-    zoek?
-    Dutch, weak verb, present tense
-    to search, look for, to seek
-    
-    Search for native, flatpak and snap packages with one command
-    run this script with the search string as argurment
-    example:
-    zoek packagename    
-    screenshot:
-    https://i.imgur.com/s5gFSzP.png
-    
-    instructions:
-    Save this file as /usr/bin/zoek
-    Set execute permissions: chmod +x /usr/bin/zoek
-    
-    Currently only works with my personal favorite linux distributions: Solus, Arch, Debian and derivated distro's.
-    Testing Redhat, Fedora and CentOS support
-////
+#
+#   zoek?
+#   Dutch, weak verb, present tense
+#   to search, look for, to seek
+#   
+#   Search for native, flatpak and snap packages with one command
+#   run this script with the search string as argurment
+#   example:
+#   zoek packagename    
+#   screenshot:
+#   https://i.imgur.com/s5gFSzP.png
+#   instructions:
+#   Save this file as /usr/bin/zoek
+#   Set execute permissions: chmod +x /usr/bin/zoek
+#   Currently works with linux distributions: Solus, Arch, Debian, Fedora.
 
 STRING1=$1
 source /etc/os-release
 declare -A osInfo;
 osInfo[/usr/bin/eopkg]=eopkg
 osInfo[/usr/bin/apt-cache]=apt-cache
-osInfo[/usr/bin/yum]=redhat #testing: tested on centos
+osInfo[/usr/bin/dnf]=fedora
 osInfo[/usr/bin/pacman]=arch
+osInfo[/sbin/apk]=alpine
+osInfo[/usr/bin/xbps-query]=void
 echo 
 for f in ${!osInfo[@]}
 do
     if [[ -f $f ]];then
-        echo Package manager: ${osInfo[$f]} on $PRETTY_NAME | lolcat
+        echo Package manager: ${osInfo[$f]} on $PRETTY_NAME
 
-echo Searching for native packages... | lolcat
+echo Searching for native packages...
 $f search $STRING1
 #dirtyhackforarch, arch users are used to it anyway
-test -f /usr/bin/yum && $f -Ss $STRING1
+test -f /usr/bin/dnf && $f -Ss $STRING1
 echo 
 
-echo looking for snap packages... | lolcat
+echo looking for snap packages...
 snap search $STRING1
 echo 
 
-echo flatpak maybe? | lolcat
+echo flatpak maybe?
 flatpak search $STRING1
 
     fi
