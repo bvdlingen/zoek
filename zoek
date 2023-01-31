@@ -22,6 +22,8 @@ osInfo[/usr/bin/eopkg]=eopkg
 osInfo[/usr/bin/apt-cache]=apt-cache
 osInfo[/usr/bin/dnf]=fedora
 osInfo[/usr/bin/pacman]=arch
+osInfo[/sbin/apk]=alpine
+osInfo[/usr/bin/xbps-query]=void
 echo 
 for f in ${!osInfo[@]}
 do
